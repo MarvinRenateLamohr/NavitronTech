@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavitronTech</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav>
+        <div class="container nav_container">
+            <a class="nav_logo" href="index.html"><h2><i class="uil uil-compass"></i>NavitronTech</h2></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button onclick="toggleNavShow()" class="nav_toggle" type="button" id="open_menu"><i class="uil uil-bars"></i></button>
+            <button onclick="toggleNavHide()" class="nav_toggle" type="button" id="close_menu"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!-- ===== Header ===== -->
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Welcome To NavitronTech</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sit facilis tempore culpa iure qui! 
+                    Dolores provident qui perspiciatis consectetur suscipit.</p>
+                <a class="header_button" href="about.html">Learn More</a>
+            </div>
+            
+            <div class="header_right">
+                <img src="#" alt="Image">
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_company">
+                <a class="footer_logo" href="index.html"><h3><i class="uil uil-compass"></i>NavitronTech</h3></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum deserunt accusantium nam cupiditate saepe doloremque quos?</p>
+            </div>
+
+            <div class="footer_quicklinks">
+                <h4>Quicklinks</h4>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_contact">                
+                <h4>Contact Us</h4>
+                <ul class="contact">
+                    <li><p>Telephone Number</p></li>
+                    <li><p>Email Address</p></li>
+                    <li><p>Physical Address, City, Country</p></li>
+                </ul>
+
+                <ul class="socials">
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul> 
+            </div>
+
+            <div class="footer_newsletter">
+                <h4>Join Our Newsletter</h4>
+                <form class="form_newsletter" action="" method="POST">
+                    <input class="email" type="email" name="Email Address" placeholder="Enter your email address..." required>
+                    <button class="subscribe" type="submit">Subscribe</button>     
+                </form>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy NavitronTech</small>
+            <small>Website developed by Marvin Renate Lamohr</small>
+        </div>
+    </footer>
+</body>
+</html>

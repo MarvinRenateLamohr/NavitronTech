@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav>
+        <div class="container nav_container">
+            <a class="nav_logo" href="index.html"><h2><i class="uil uil-compass"></i>NavitronTech</h2></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button onclick="toggleNavShow()" class="nav_toggle" type="button" id="open_menu"><i class="uil uil-bars"></i></button>
+            <button onclick="toggleNavHide()" class="nav_toggle" type="button" id="close_menu"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!-- ===== Contact ===== -->
+    <section>
+        <h2>Contact Us</h2>
+        <div class="container contact_container">
+            <div class="contact_left">
+                <h1><i class="uil uil-compass"></i>NavitronTech</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <ul class="contact_details">
+                    <li><i class="uil uil-compass"></i><h5>Telephone Number</h5></li>
+                    <li><i class="uil uil-compass"></i><h5>Email Address</h5></li>
+                    <li><i class="uil uil-compass"></i><h5>Physical Address, City, Country</h5></li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href=""><i class="uil uil-facebook"></i></a></li>
+                    <li><a href=""><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href=""><i class="uil uil-twitter"></i></a></li>
+                    <li><a href=""><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="contact_center">
+                <h4>Trading Hours</h4>
+                <ul class="contact_trading_hours">
+                    <li><h5>Monday:<br>9am - 5pm</h5></li>
+                    <li><h5>Tuesday:<br>9am - 5pm</h5></li>
+                    <li><h5>Wednesday:<br>9am - 5pm</h5></li>
+                    <li><h5>Thursday:<br>9am - 5pm</h5></li>
+                    <li><h5>Friday:<br>9am - 5pm</h5></li>
+                    <li><h5>Saturday:<br>Closed</h5></li>
+                    <li><h5>Sunday:<br>Closed</h5></li>
+                    <li><h5>Public Holidays:<br>Closed</h5></li>
+                </ul>
+            </div>
+
+            <div class="contact_right">
+                <form class="contact_form" action="" method="POST">
+                    <input type="text" name="Name" placeholder="Name *" required>
+                    <input type="email" name="Email" placeholder="Email *" required>
+                    <input type="tel" name="Phone" placeholder="Phone *" required>
+                    <textarea name="Message" rows="8" placeholder="Type your message..." required></textarea>  
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_company">
+                <a class="footer_logo" href="index.html"><h3><i class="uil uil-compass"></i>NavitronTech</h3></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum deserunt accusantium nam cupiditate saepe doloremque quos?</p>
+            </div>
+
+            <div class="footer_quicklinks">
+                <h4>Quicklinks</h4>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_contact">                
+                <h4>Contact Us</h4>
+                <ul class="contact">
+                    <li><p>Telephone Number</p></li>
+                    <li><p>Email Address</p></li>
+                    <li><p>Physical Address, City, Country</p></li>
+                </ul>
+
+                <ul class="socials">
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>  
+            </div>
+
+            <div class="footer_newsletter">
+                <h4>Join Our Newsletter</h4>
+                <form class="form_newsletter" action="" method="POST">
+                    <input class="email" type="email" name="Email Address" placeholder="Enter your email address..." required>
+                    <button class="subscribe" type="submit">Subscribe</button>     
+                </form>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy NavitronTech</small>
+            <small>Website developed by Marvin Renate Lamohr</small>
+        </div>
+    </footer>
+</body>    
